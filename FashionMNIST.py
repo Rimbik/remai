@@ -70,6 +70,7 @@ from google.colab import drive
 drive.mount("/content/drive", force_remount=True); # force to get new added images/files mounted
 
 
+# external ref : https://saturncloud.io/blog/using-tensorflow-to-pass-an-image-to-a-simple-mnist-data-model/
 #predict an image ------------------ IMAGE  PREDICTION ------------------->>
 
 from PIL import Image
@@ -87,5 +88,9 @@ prediction = model.predict(x)
 #prd = model.predict(x, batch_size=None, verbose='auto', steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False)
 digit = np.argmax(prediction)
 print("prediction :", digit) # output: prediction : 4
+
+# is the prection closer to accurate as seen 4/10 ? : Need to evaluate (Confusion matrix code not made yet)
+
+
 
 
