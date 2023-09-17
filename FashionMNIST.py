@@ -88,4 +88,8 @@ prediction = model.predict(x)
 digit = np.argmax(prediction)
 print("prediction :", digit) # output: prediction : 4
 
+# is the prection closer to accurate as seen 4/10 ? : Need to evaluate (Confusion matrix code not made yet)
+
+
+
 
