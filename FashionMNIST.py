@@ -70,6 +70,7 @@ from google.colab import drive
 drive.mount("/content/drive", force_remount=True); # force to get new added images/files mounted
 
 
+# external ref : https://saturncloud.io/blog/using-tensorflow-to-pass-an-image-to-a-simple-mnist-data-model/
 #predict an image ------------------ IMAGE  PREDICTION ------------------->>
 
 from PIL import Image
